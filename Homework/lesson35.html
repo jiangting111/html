@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FormSolution</title>
+</head>
+
+<body>
+<h1>Register</h1>
+
+<form>
+	<lable>First name:<input type="text" required></lable>
+	<lable>Last name:<input type="text" required></lable>
+	<br>
+
+	<lable for="Male">Male</lable>
+	<input name="sextype" id="Male" type="radio" value="Male">
+	<lable for="Female">Female</lable>
+	<input name="sextype" id="Female" type="radio" value="Female">
+	<lable for="Other">Other</lable>
+	<input name="sextype" id="Other" type="radio" value="Other">
+	<br>
+
+    <lable>Email:<input type="email" required placeholder="your email"></lable>
+    <lable>Password:<input type="password" required minlength="5"
+       maxlength="10"></lable>
+    <br>
+    
+    <label>
+    Birthday:
+    <select name='Month'>
+    	<option>Month</option>
+    	<option>Jan-Apr</option>
+    	<option>May-Aug</option>
+    	<option>Sept-Dec</option>
+    </select>
+    
+    <select name='Day'>
+    	<option>Day</option>
+    	<option>01-10</option>
+    	<option>11-20</option>
+    	<option>21-31</option>
+    </select>
+  
+    <select name='Year'>
+    	<option>Year</option>
+    	<option>1990</option>
+    	<option>1991</option>
+    	<option>1992</option>
+    </select>
+    </label>
+    <br>
+
+    I agree to the terms and conditions<input type="checkbox" required>
+    <br>
+
+    <button>Submit</button>
+
+</form>
+
+</body>
+</html>
