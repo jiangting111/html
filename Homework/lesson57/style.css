@@ -1,0 +1,25 @@
+h1 {
+	text-align: center;
+}
+
+.rb {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.b {
+	border-bottom: 1px solid black;
+}
+
+.r {
+	border-right: 1px solid black;
+}
+
+td {
+	height: 100px;
+	width: 100px;
+}
+
+table {
+	margin: 0 auto;
+}
