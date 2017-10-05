@@ -1,0 +1,34 @@
+body {
+	border: 16px solid #bdc3c7;
+	margin: 16px auto;
+	width: 60%;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.date {
+	color: #3498db;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+h1 {
+	color: #2c3e50;
+	text-transform: capitalize;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.6px;
+}
+
+.para1 {
+	font-family: 'Source Sans Pro', sans-serif;
+    border-left: 4px solid #bdc3c7;
+    padding-left: 4px;
+}
+
+.para_end {
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 16px;
+}
